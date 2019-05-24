@@ -1,0 +1,114 @@
+body {
+    background-color: lightblue;}
+.containerhead {
+    width: 960px;
+    margin:auto;}
+header {
+    background-color: lightgray;}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;}
+.box-set {
+    color: lightgray;
+    margin:0 auto;
+    background:steelblue;
+    max-width: 960px;}
+.box1 {
+    padding: 20px;
+    color:white;
+    text-align: center;
+    background:steelblue;
+    width:192px;
+    float:left;
+    font-size: 30px;
+    position:relative;}
+.box2,
+.box3,
+.box4 {
+    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: auto;
+    margin-top:20px;
+    font-size: 20px;
+    color:lightgray;
+    text-align: center;
+    background:gray;
+    float:right;
+    border-radius: 10px;
+    position:relative;
+    margin: 1 px;}
+.main {
+    margin: auto;
+    width: 960px;
+    background-color: white;
+    color:black;
+    margin-top: 10px;
+    height:auto;} 
+.biotext {
+    max-width:960px;
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 10px;}
+.main-image {
+    height: 220px;
+    float:left;
+    margin:10px;
+    margin-right: 25px;
+    padding-bottom: 5px;}
+hr {
+    color:lightblue;}
+a {
+    text-decoration: none;
+    color: white;}
+.AboutMe {
+    font-size: 40px;
+    color: steelblue;
+    padding: 20px;
+    margin:auto;
+}
+.contactme {
+    width: 500px;}
+.machupicchu {
+    height:441px;
+    padding-top: 10px;
+}
+.switzerland {
+    height:441px;
+    padding-top: 10px;
+}
+.italy{
+    height:441px;
+}
+.iceland {
+    height:441px;
+}
+input[type=text], 
+select, 
+textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+  }
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .container {
+    border-radius: 5px;
+    background-color:lightgray;
+    padding: 20px;
+  }
